@@ -3,7 +3,7 @@ import Greeting from './Greeting'
 
 type GreetingContainerPropsType = {
     users: any // need to fix any
-    addUserCallback: any // need to fix any
+    addUserCallback: (names: string) => void // need to fix any
 }
 
 // более простой и понятный для новичков
